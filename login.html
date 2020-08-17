@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="login.css">
+</head>
+<style>
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: midnightblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: azure;
+  color: #2196F3;
+}
+.active {
+  background-color: midnightblue ;
+}
+
+</style>
+<body background="images/bg.jpg">
+<ul>
+<div class="icon-bar">
+  
+  <li><a href="index.php">Home</a></li>
+  <li><a class="active" href="register.html">Sign Up</a></li>
+  <li><a href="explore.html">Explore</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="#About">About</a></li>
+  </div>
+  
+</ul>
+
+
+<div class="container" background-color="black" >
+  <form action="/action_page.php">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="row">
+      <h1 style="text-align:center" color="white">Login with Social Media or Manually</h1>
+      <div class="vl">
+        <span class="vl-innertext" color="white"></span>
+      </div>
+
+      <div class="col">
+        <a href="https://www.facebook.com/" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+        </a>
+        <a href="https://twitter.com/?lang=en-in" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="https://mail.google.com/mail" class="google btn">
+          <i class="fa fa-google fa-fw"></i> Login with Google
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
+
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+      </div>
+
+    </div>
+  </form>
+</div>
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      
+    </div>
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Forgot password?</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
