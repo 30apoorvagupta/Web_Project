@@ -1,5 +1,6 @@
 * {box-sizing: border-box}
 
+
 /* style the container */
 .container {
   color: white;
@@ -46,13 +47,13 @@ input:hover,
 
 /* style the submit button */
 input[type=submit] {
-  background-color: red;
+  background-color:deepskyblue;
   color: white;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #fd0202;
+  background-color:midnightblue;
 }
 
 /* Two-column layout */

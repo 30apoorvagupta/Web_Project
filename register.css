@@ -23,19 +23,22 @@ h1{
    }
    
    li a {
-     display: block;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-   }
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
    
    
-   li a:hover {
-     background-color: azure;
-   }
-   .active {
-     background-color: #ff0000 ;
-   }
+  li a:hover {
+    background-color: azure;
+    color: #2196F3;
+  }
+  .active {
+    background-color: midnightblue ;
+  }
 
 
 
@@ -115,10 +118,7 @@ button:hover {
   }
 }
 /*search css*/
-/* Style the input container */
-.topnav .search-container {
-  float: right;
-}
+
 
 /* Style the input field inside the navbar */
 .topnav input[type=text] {
