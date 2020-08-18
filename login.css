@@ -1,6 +1,8 @@
 * {box-sizing: border-box}
-
-
+body {
+  background-size: 100%;
+  margin: 0;
+}
 /* style the container */
 .container {
   color: white;
