@@ -10,9 +10,6 @@ $con=mysqli_connect("localhost","root","","blog");
     {
       echo "Failed to connect to MySQL: " . mysqli_connect_error();
     }
-    else{
-      echo"Successs!!!!!";
-    }
 
     $sql = "INSERT INTO user_details (name, email, password) VALUES ('".$_POST["name"]."','".$_POST["psw"]."','".$_POST["email"]."')";
 if(mysqli_query($con, $sql)){
