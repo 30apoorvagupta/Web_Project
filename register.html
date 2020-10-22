@@ -14,19 +14,21 @@
 
 <body>
 	<div class="topnav">
-		<a style="float:left; font-size:large;"  href="index.html"><strong>Blogr</strong></a>
+		<a style="float:left; font-size:large;"  href="xmlwriter.php"><strong>Blogr</strong></a>
 		<a style="float:right" class="active" href="#home"><i class="fa fa-home"></i></a>
 		<a style="float:right" href="#contact">Contact</a>
 		<a style="float:right" href="#about">About</a>
 		<a style="float:right" href="login.html">Login</a>
 		
 	</div>
-	<form name = "signup" action="/action_page.php" style="border:1px solid #ccc" onsubmit="return validateform()" >
+	<form name="Signup" action="/web_project/action_page1.php" onsubmit="return validateForm()" method="POST">
 		<div class="container">
 		  <h1>Sign Up</h1>
 		  <p>Please fill in this form to create an account.</p>
 		  <hr>
-	  
+		  <label for="name"><b>Name</b></label>
+		  <input type="text" placeholder="Enter Name" name="name" required>
+	
 		  <label for="email"><b>Email</b></label>
 		  <input type="text" placeholder="Enter Email" name="email" required>
 	  

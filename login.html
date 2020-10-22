@@ -9,7 +9,7 @@
 
   <script>
     function validateForm() {
-      var x = document.forms["Login"]["username"].value;
+      var x = document.forms["Login"]["email"].value;
       var y = document.forms["Login"]["password"].value;
       if (x == "") {
         alert("Name must be filled out");
@@ -27,15 +27,15 @@
 <body background="images/bg.jpg">
 
   <div class="topnav">
-    <a style="float:left; font-size: large;"  href="index.html"><strong>Blogr</strong></a>
-    <a style="float:right" class="active" href="index.html"><i class="fa fa-home"></i></a>
+    <a style="float:left; font-size: large;"  href="xmlwriter.php"><strong>Blogr</strong></a>
+    <a style="float:right" class="active" href="xmlwriter.php"><i class="fa fa-home"></i></a>
     <a style="float:right" href="#contact">Contact</a>
     <a style="float:right" href="#about">About</a>
     <a style="float:right" href="register.html">Sign Up</a>
 
   </div>
   <div class="container" background-color="black">
-    <form name="Login" action="/action_page.php" onsubmit="return validateForm()" method="POST">
+    <form name="Login" action="/web_project/action_page.php" onsubmit="return validateForm()" method="POST">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <div class="row">
         <h1 style="text-align:center" color="white">Login with Social Media or Manually</h1>
@@ -57,7 +57,7 @@
 
         <div class="col">
 
-          <input type="text" name="username" placeholder="Username" >
+          <input type="text" name="username"  placeholder="Email" >
           <input type="password" name="password" placeholder="Password" >
           <input type="submit" value="Login">
         </div>
