@@ -7,21 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" href="images/blogging.png">
 
-  <script>
-    function validateForm() {
-      var x = document.forms["Login"]["email"].value;
-      var y = document.forms["Login"]["password"].value;
-      if (x == "") {
-        alert("Name must be filled out");
-        return false;
-      }
-      if (y == "") {
-        alert("Password must be filled out");
-        return false;
-      }
-    }
-    </script>
-
+  
 </head>
 
 <body background="images/bg.jpg">
@@ -57,7 +43,7 @@
 
         <div class="col">
 
-          <input type="text" name="username"  placeholder="Email" >
+          <input type="text" name="username"  placeholder="Email"  >
           <input type="password" name="password" placeholder="Password" >
           <input type="submit" value="Login">
         </div>
